@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c8796ac6-2289-4d06-b78e-4a90b7b4ed0d": {
+      "ProjectGuid": "c8796ac6-2289-4d06-b78e-4a90b7b4ed0d",
+      "DisplayName": "DemoFunctionApp",
+      "ColorIndex": 0
+    },
+    "195f03c6-087d-4ddf-8736-351b401b5fe3": {
+      "ProjectGuid": "195f03c6-087d-4ddf-8736-351b401b5fe3",
+      "DisplayName": ".devcontainer",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
