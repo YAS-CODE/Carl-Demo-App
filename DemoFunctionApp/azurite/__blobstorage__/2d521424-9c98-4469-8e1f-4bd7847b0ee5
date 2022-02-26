@@ -1,0 +1,113 @@
+{
+  "deviceId": "1a1492c0-8bde-4c72-ba01-1990955cabe8",
+  "deviceType": "airToWater",
+  "links": [
+    {
+      "href": "/api/airToWater/g/v1/devices/1a1492c0-8bde-4c72-ba01-1990955cabe8/properties",
+      "rel": "self",
+      "method": "GET"
+    }
+  ],
+  "zones": [
+    {
+      "operationStatus": true,
+      "temperatureConfigurable": true,
+      "targetCoolingTemperature": 41,
+      "targetHeatingTemperature": 42,
+      "maxHeatingTemperature": 28,
+      "maxCoolingTemperature": 30,
+      "id": 1,
+      "measuredTemperature": 25,
+      "minCoolingTemperature": 41,
+      "minHeatingTemperature": 42
+    },
+    {
+      "operationStatus": true,
+      "temperatureConfigurable": true,
+      "targetCoolingTemperature": 43,
+      "targetHeatingTemperature": 45,
+      "maxHeatingTemperature": 29,
+      "maxCoolingTemperature": 35,
+      "id": 2,
+      "measuredTemperature": 22,
+      "minCoolingTemperature": 17,
+      "minHeatingTemperature": 37
+    }
+  ],
+  "tank": {
+    "operationStatus": true,
+    "measuredTemperature": 40,
+    "targetHeatingTemperature": 55,
+    "maxHeatingTemperature": 66,
+    "minHeatingTemperature": 46
+  },
+  "operationMode": "heat",
+  "quietLevel": 0,
+  "specialOperationMode": "eco",
+  "heatpumpDirection": "room",
+  "boilerStatus": true,
+  "deicingStatus": true,
+  "possibleOperationMode": [
+    "heat",
+    "cool",
+    "auto"
+  ],
+  "forceHeater": false,
+  "outdoorTemperature": 2
+}{
+  "deviceId": "1a1492c0-8bde-4c72-ba01-1990955cabe8",
+  "deviceType": "airToWater",
+  "links": [
+    {
+      "href": "/api/airToWater/g/v1/devices/1a1492c0-8bde-4c72-ba01-1990955cabe8/properties",
+      "rel": "self",
+      "method": "GET"
+    }
+  ],
+  "zones": [
+    {
+      "operationStatus": true,
+      "temperatureConfigurable": true,
+      "targetCoolingTemperature": 41,
+      "targetHeatingTemperature": 42,
+      "maxHeatingTemperature": 28,
+      "maxCoolingTemperature": 30,
+      "id": 1,
+      "measuredTemperature": 25,
+      "minCoolingTemperature": 41,
+      "minHeatingTemperature": 42
+    },
+    {
+      "operationStatus": true,
+      "temperatureConfigurable": true,
+      "targetCoolingTemperature": 43,
+      "targetHeatingTemperature": 45,
+      "maxHeatingTemperature": 29,
+      "maxCoolingTemperature": 35,
+      "id": 2,
+      "measuredTemperature": 22,
+      "minCoolingTemperature": 17,
+      "minHeatingTemperature": 37
+    }
+  ],
+  "tank": {
+    "operationStatus": true,
+    "measuredTemperature": 40,
+    "targetHeatingTemperature": 55,
+    "maxHeatingTemperature": 66,
+    "minHeatingTemperature": 46
+  },
+  "operationMode": "heat",
+  "quietLevel": 0,
+  "specialOperationMode": "eco",
+  "heatpumpDirection": "room",
+  "boilerStatus": true,
+  "deicingStatus": true,
+  "possibleOperationMode": [
+    "heat",
+    "cool",
+    "auto"
+  ],
+  "forceHeater": false,
+  "outdoorTemperature": 2
+}

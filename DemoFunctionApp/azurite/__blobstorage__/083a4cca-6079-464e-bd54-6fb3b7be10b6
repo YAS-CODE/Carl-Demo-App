@@ -1,0 +1,57 @@
+{"Last":"0001-01-01T00:00:00","Next":"2022-02-26T22:40:00+05:00","LastUpdated":"2022-02-26T22:39:21.4443152+05:00"}{
+  "deviceId": "1a1492c0-8bde-4c72-ba01-1990955cabe8",
+  "deviceType": "airToWater",
+  "links": [
+    {
+      "href": "/api/airToWater/g/v1/devices/1a1492c0-8bde-4c72-ba01-1990955cabe8/properties",
+      "rel": "self",
+      "method": "GET"
+    }
+  ],
+  "zones": [
+    {
+      "operationStatus": true,
+      "temperatureConfigurable": true,
+      "targetCoolingTemperature": 41,
+      "targetHeatingTemperature": 42,
+      "maxHeatingTemperature": 28,
+      "maxCoolingTemperature": 30,
+      "id": 1,
+      "measuredTemperature": 25,
+      "minCoolingTemperature": 41,
+      "minHeatingTemperature": 42
+    },
+    {
+      "operationStatus": true,
+      "temperatureConfigurable": true,
+      "targetCoolingTemperature": 43,
+      "targetHeatingTemperature": 45,
+      "maxHeatingTemperature": 29,
+      "maxCoolingTemperature": 35,
+      "id": 2,
+      "measuredTemperature": 22,
+      "minCoolingTemperature": 17,
+      "minHeatingTemperature": 37
+    }
+  ],
+  "tank": {
+    "operationStatus": true,
+    "measuredTemperature": 40,
+    "targetHeatingTemperature": 55,
+    "maxHeatingTemperature": 66,
+    "minHeatingTemperature": 46
+  },
+  "operationMode": "heat",
+  "quietLevel": 0,
+  "specialOperationMode": "eco",
+  "heatpumpDirection": "room",
+  "boilerStatus": true,
+  "deicingStatus": true,
+  "possibleOperationMode": [
+    "heat",
+    "cool",
+    "auto"
+  ],
+  "forceHeater": false,
+  "outdoorTemperature": 2
+}{"Last":"2022-02-26T22:40:00.0129638+05:00","Next":"2022-02-26T22:41:00+05:00","LastUpdated":"2022-02-26T22:40:00.0129638+05:00"}{"Last":"2022-02-26T22:41:00.0173732+05:00","Next":"2022-02-26T22:42:00+05:00","LastUpdated":"2022-02-26T22:41:00.0173732+05:00"}{"TankTimeSeries":[{"DateTime":"2022-02-26T20:27:46.8313817Z","SetTemperature":55.0,"CurrentTemperature":40,"OutsideTemperature":66}],"ZoneTimeSeries":[{"ZoneId":"Zone1","Name":"Zone1","Samples":1,"TimeSeries":[{"DateTime":"2022-02-26T20:27:38.4849646Z","SetTemperature":42.0,"CurrentTemperature":25,"OutsideTemperature":42}]},{"ZoneId":"Zone2","Name":"Zone2","Samples":1,"TimeSeries":[{"DateTime":"2022-02-26T20:27:43.9505558Z","SetTemperature":45.0,"CurrentTemperature":22,"OutsideTemperature":37}]}],"IsFirstPeriod":true,"Samples":1}{"Last":"2022-02-27T01:26:44.0468523+05:00","Next":"2022-02-27T01:27:00+05:00","LastUpdated":"2022-02-27T01:26:44.0468523+05:00"}{"TankTimeSeries":[{"DateTime":"2022-02-26T20:27:46.8313817Z","SetTemperature":55.0,"CurrentTemperature":40,"OutsideTemperature":66},{"DateTime":"2022-02-26T20:36:20.2329665Z","SetTemperature":55.0,"CurrentTemperature":40,"OutsideTemperature":66}],"ZoneTimeSeries":[{"ZoneId":"Zone1","Name":"Zone1","Samples":1,"TimeSeries":[{"DateTime":"2022-02-26T20:27:38.4849646Z","SetTemperature":42.0,"CurrentTemperature":25,"OutsideTemperature":42},{"DateTime":"2022-02-26T20:36:12.7171976Z","SetTemperature":42.0,"CurrentTemperature":25,"OutsideTemperature":42}]},{"ZoneId":"Zone2","Name":"Zone2","Samples":1,"TimeSeries":[{"DateTime":"2022-02-26T20:27:43.9505558Z","SetTemperature":45.0,"CurrentTemperature":22,"OutsideTemperature":37},{"DateTime":"2022-02-26T20:36:16.8264318Z","SetTemperature":45.0,"CurrentTemperature":22,"OutsideTemperature":37}]}],"IsFirstPeriod":false,"Samples":2}{"Last":"2022-02-27T01:35:47.7000883+05:00","Next":"2022-02-27T01:36:00+05:00","LastUpdated":"2022-02-27T01:35:47.7000883+05:00"}{"TankTimeSeries":[{"DateTime":"2022-02-26T20:27:46.8313817Z","SetTemperature":55.0,"CurrentTemperature":40,"OutsideTemperature":66},{"DateTime":"2022-02-26T20:38:39.5111613Z","SetTemperature":55.0,"CurrentTemperature":40,"OutsideTemperature":66}],"ZoneTimeSeries":[{"ZoneId":"Zone1","Name":"Zone1","Samples":1,"TimeSeries":[{"DateTime":"2022-02-26T20:27:38.4849646Z","SetTemperature":42.0,"CurrentTemperature":25,"OutsideTemperature":42},{"DateTime":"2022-02-26T20:38:32.9186109Z","SetTemperature":42.0,"CurrentTemperature":25,"OutsideTemperature":42}]},{"ZoneId":"Zone2","Name":"Zone2","Samples":1,"TimeSeries":[{"DateTime":"2022-02-26T20:27:43.9505558Z","SetTemperature":45.0,"CurrentTemperature":22,"OutsideTemperature":37},{"DateTime":"2022-02-26T20:38:36.6897305Z","SetTemperature":45.0,"CurrentTemperature":22,"OutsideTemperature":37}]}],"IsFirstPeriod":false,"Samples":2}
